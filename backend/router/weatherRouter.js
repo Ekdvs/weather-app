@@ -1,5 +1,6 @@
 import express from 'express'
-import { getAllCitiesWeathers, getWeatherByCityID } from '../controller/weatherController.js';
+import { check, getAllCitiesWeathers, getWeatherByCityID } from '../controller/weatherController.js';
+import { checkJwt } from '../middleweare/auth.js';
 
 const weatherRouter= express.Router();
 
@@ -8,5 +9,8 @@ weatherRouter.get('/',getAllCitiesWeathers);
 
 //get weather by city id
 weatherRouter.post('/:id',getWeatherByCityID)
+
+//check
+weatherRouter.get('/d',checkJwt,check)
 
 export default weatherRouter;

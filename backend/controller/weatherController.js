@@ -1,4 +1,4 @@
-import { request } from "express";
+import { request, response } from "express";
 import { getAllCitiesWeather, getWeatherByCityId } from "../service/weatherService.js";
 
 export const getAllCitiesWeathers=async(request,response)=>{
@@ -77,4 +77,9 @@ export const getWeatherByCityID =async(request,response)=>{
         })
     }
 }
+
+export const check=async(request,response)=>{
+    response.send({ message: "Secure weather data here" });
+}
+    
 

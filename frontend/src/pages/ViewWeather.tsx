@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { fetchWeatherById } from "../services/weatherService";
 import WeatherDetail from "../components/WeatherDetail";
 import { FiArrowLeft } from "react-icons/fi";
+import Navbar from "../components/Navbar";
 
 const ViewWeather: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -24,7 +25,7 @@ const ViewWeather: React.FC = () => {
 
   return (
     <div className="relative h-screen w-screen bg-cover bg-center bg-no-repeat bg-fixed text-white flex flex-col items-center justify-start overflow-y-auto bg-[url('/bg-weather.jpg')]">
-
+<Navbar />
       {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black/50" />
 

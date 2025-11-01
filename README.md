@@ -254,6 +254,11 @@ weather-app/
 - Background image with overlay for better readability
 
 ---
+## 🖼️ Screenshots
+
+| Dashboard | Details View |
+|------------|--------------|
+| ![Dashboard](./assets/dashboard.png) | ![Details](./assets/details.png) |
 
 ## 🔒 Security Features
 

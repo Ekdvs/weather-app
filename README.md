@@ -258,7 +258,7 @@ weather-app/
 
 | Dashboard | Details View |
 |------------|--------------|
-| ![Dashboard](./assets/dashboard.png) | ![Details](./assets/details.png) |
+| ![Dashboard](./assets/dashboard.png) | ![Details](./assets/details.png) 
 
 ## 🔒 Security Features
 

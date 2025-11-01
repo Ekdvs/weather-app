@@ -230,6 +230,7 @@ Adaptive navigation and spacing
 
 Touch-friendly interactions
 
+```markdown
 ## 🖼️ Screenshots
 
 | Dashboard | Details View |

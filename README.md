@@ -230,8 +230,12 @@ Adaptive navigation and spacing
 
 Touch-friendly interactions
 
-🖼️ Screenshots
-Dashboard	Details View
+## 🖼️ Screenshots
+
+| Dashboard | Details View |
+|------------|--------------|
+| ![Dashboard](./assets/dashboard.png) | ![Details](./assets/details.png) |
+
 	
 
 🔒 Security Features
